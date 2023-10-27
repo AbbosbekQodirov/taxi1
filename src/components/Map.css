@@ -1,0 +1,8 @@
+.category{
+    position: absolute;
+    z-index: 2;
+    right: 100px;
+    top: 20px;
+    display: flex;
+    gap: 40px;
+}

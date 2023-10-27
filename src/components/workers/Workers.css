@@ -1,0 +1,48 @@
+.workers_container{
+    padding: 20px 0px;
+}
+
+.workers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+.workers_filter{
+    margin: 40px 0px;
+    display: flex;
+    gap: 20px;
+}
+
+.workers .worker{
+    background-color: black;
+    color: white;
+    width: 610px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 100px;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.workers .worker div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.workers .worker h1{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 10px;
+
+}
+
+.worker>img{
+    position: absolute;
+    left: -30px;
+    width: 150px;
+}
